@@ -1,0 +1,74 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.table
+{
+    background: sandybrown;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: 2px solid black;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+}
+
+.table-1
+{
+    left: 50px;
+    top: 10px;
+    margin: 3px;
+   }
+
+.table-2
+{
+    left: 50px;
+    top: 10px;
+    margin:3px;
+}
+
+.siège
+{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    padding: 5px;
+    border: black 1px dashed;
+    border-radius: 1.5em;
+    font-weight: bold;
+    background-color: aqua;
+
+}
+
+#emplacement-1 {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    text-align: center
+}
+
+#emplacement-2 {
+    position: absolute;
+    left: 125px;
+    top: 10px;
+    text-align: center
+}
+#emplacement-3
+{
+    position: absolute;
+    left: 5px;
+    top: 80px;
+    text-align: center
+}
+
+#emplacement-4
+{
+    position: absolute;
+    left: 125px;
+    top: 80px;
+    text-align: center
+}
+
