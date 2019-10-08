@@ -15,7 +15,7 @@ html
 
 .table
 {
-    background: sandybrown;
+    background: #f4b575;
     border: 2px solid black;
     height: 150px;
     width: 250px;
@@ -41,13 +41,13 @@ html
 
 .siège
 {
-    width: 100px;
+    width: 80px;
     height: 50px;
-    padding: 5px;
+    padding: 4px;
     border: black 1px dashed;
     border-radius: 1.5em;
     font-weight: bold;
-    background-color: aqua;
+    background-color: rgba(153, 255, 222, 0.8);
     text-align: center;
 
 
@@ -55,14 +55,14 @@ html
 
 .emplacement-1 {
     position: relative;
-    left: 5px;
+    left: 15px;
     top: 10px;
     text-align: center
 }
 
 .emplacement-2 {
     position: absolute;
-    left: 125px;
+    left: 140px;
     top: 10px;
     text-align: center;
     display: inline-block;
@@ -70,7 +70,7 @@ html
 .emplacement-3
 {
     position: absolute;
-    left: 5px;
+    left: 15px;
     top: 80px;
     text-align: center;
 }
@@ -78,7 +78,7 @@ html
 .emplacement-4
 {
     position: absolute;
-    left: 125px;
+    left: 140px;
     top: 80px;
     text-align: center;
     display: inline-block;
@@ -87,7 +87,7 @@ html
 
 .rangee2 {
     left: 50px;
-    top: 450px;
+    top: 250px;
     height: 200px;
     width: 800px;
     position: absolute;
