@@ -5,70 +5,91 @@ html
     width: auto;
 }
 
-.table
+.rangee
 {
-    background: sandybrown;
-    margin-top: 50px;
-    margin-left: 150px;
-    border: 2px solid black;
-    height: 150px;
-    width: 250px;
+    left: 50px;
+    height: 200px;
+    width: 800px ;
     position: absolute;
 }
 
-.table-1
+.table
+{
+    background: sandybrown;
+    border: 2px solid black;
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    top: 10px;
+    position: absolute;
+}
+
+.t1
 {
     left: 50px;
-    top: 10px;
-    margin: 3px;
    }
 
-.table-2
+.t2
 {
-    left: 50px;
-    top: 10px;
-    margin:3px;
+    left: 300px;
+}
+
+.t3
+{
+    left: 550px;
 }
 
 .siège
 {
     width: 100px;
     height: 50px;
-    position: relative;
     padding: 5px;
     border: black 1px dashed;
     border-radius: 1.5em;
     font-weight: bold;
     background-color: aqua;
+    text-align: center;
+
 
 }
 
-#emplacement-1 {
-    position: absolute;
+.emplacement-1 {
+    position: relative;
     left: 5px;
     top: 10px;
     text-align: center
 }
 
-#emplacement-2 {
+.emplacement-2 {
     position: absolute;
     left: 125px;
     top: 10px;
-    text-align: center
+    text-align: center;
+    display: inline-block;
 }
-#emplacement-3
+.emplacement-3
 {
     position: absolute;
     left: 5px;
     top: 80px;
-    text-align: center
+    text-align: center;
 }
 
-#emplacement-4
+.emplacement-4
 {
     position: absolute;
     left: 125px;
     top: 80px;
-    text-align: center
+    text-align: center;
+    display: inline-block;
+}
+
+
+.rangee2 {
+    left: 50px;
+    top: 450px;
+    height: 200px;
+    width: 800px;
+    position: absolute;
 }
 
